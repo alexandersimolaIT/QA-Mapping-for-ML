@@ -1,5 +1,5 @@
 # QA-Mapping-for-ML
-A mapping of existing literature in the field of ML testing. Helps in identifying relevant testing solutions given a context and testing goal. This repo contains results from our [Master's thesis][thesis]. There are two versions of this toolkit. Version 1 corresponds to the implementation we had before evaluating it by interviewing experts at a company, and version 2 is the improved implementation based on the feedback from the interviews.
+A mapping of existing literature in the field of ML testing. Helps in identifying relevant testing solutions given a context and testing goal. This repo contains results from our [Master's thesis][thesis] (just a dummy link for now). There are two versions of this toolkit. Version 1 corresponds to the implementation we had before evaluating it by interviewing experts at a company, and version 2 is the improved implementation based on the feedback from the interviews.
 
 ## The Mapping Tool
 The mapping tool can be found [here][mapping]. It is a table that can be filtered based on the tags in the different cells. Each row represents a paper that proposes a technique for testing ML systems. The columns represent different attributes of a paper, for example which testing goal is addressed, what type of testing technique is applied, or what ML task (e.g., classification, clustering, etc.) is being tested.
