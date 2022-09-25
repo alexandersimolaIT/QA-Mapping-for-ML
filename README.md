@@ -1,5 +1,5 @@
 # QA-Mapping-for-ML
-A mapping of existing literature in the field of ML testing. Helps in identifying relevant testing solutions given a context and testing goal. This repo contains results from our [Master's thesis][thesis] (just a dummy link for now). There are two versions of this toolkit. Version 1 corresponds to the implementation we had before evaluating it by interviewing experts at a company, and version 2 is the improved implementation based on the feedback from the interviews.
+A mapping of existing literature in the field of ML testing. Helps in identifying relevant testing solutions given a context and testing goal. This repo contains results from our [Master's thesis][thesis]. There are two versions of this toolkit. Version 1 corresponds to the implementation we had before evaluating it by interviewing experts at a company, and version 2 is the improved implementation based on the feedback from the interviews.
 
 ## The Mapping Tool
 The mapping tool can be found [here][mapping]. It is a table that can be filtered based on the tags in the different cells. Each row represents a paper that proposes a technique for testing ML systems. The columns represent different attributes of a paper, for example which testing goal is addressed, what type of testing technique is applied, or what ML task (e.g., classification, clustering, etc.) is being tested.
@@ -28,5 +28,5 @@ These diagrams ("overview_trees.pdf") attempt to give an overview of what the ma
 
 Let's explain these diagrams... The green root node represents a component under test (CUT). This node is connected to red nodes that represent different testing goals (e.g., attributes like safety, fairness, robustness). These red nodes are connected to blue nodes that represent different types of testing techniques. All in all, each path from the root node to a leaf node (green -> red -> blue) means that there exists *at least one paper* in the mapping that proposes a solution for achieving the specified **testing goal** on the specific **CUT**  by applying a certain **type of testing**.
 
-[mapping]: https://lists.live.com/:l:/g/personal/7caca96344176fc6/FH7iTutBDSFOqKiNJbDKkPsBQ3SePdQ-KFtO2iOIE9Aj0w?e=LMl7K4
-[thesis]: http://www.link_to_msc_thesis.com
+[mapping]: https://lists.live.com/:l:/g/personal/7caca96344176fc6/FH7iTutBDSFOqKiNJbDKkPsBJHO5TNue7vsSHfsg8e7XPQ
+[thesis]: https://odr.chalmers.se/handle/20.500.12380/305129?locale=en
